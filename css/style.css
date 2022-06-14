@@ -1,0 +1,20 @@
+:hover.imgcategoria{
+filter: grayscale(0%);
+transition: 250ms;
+}
+
+.imgcategoria{
+  filter: grayscale(60%);
+  border-radius: 30px;
+}
+
+
+
+@media all and (max-width: 576px) {
+    .imgSlider {
+        height: 280px;
+        object-fit: cover;
+      }
+    
+}
+
